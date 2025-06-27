@@ -22,7 +22,7 @@ SMTP_CONFIG = {
 }
 
 # Daily reading schedule (24-hour format)
-READING_TIMES = ["22:40", "12:00", "16:00", "20:00"]
+READING_TIMES = ["08:00", "12:00", "16:00", "20:00"]
 
 # Plant information (customize as needed)
 PLANT_INFO = {
