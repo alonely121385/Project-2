@@ -11,11 +11,11 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(channel, GPIO.IN)
 
 # Email setup
-SMTP_SERVER = "smtp.gmail.com"  # Use your email provider's SMTP server
+SMTP_SERVER = "smtp.qq.com"  # Use your email provider's SMTP server
 SMTP_PORT = 587
-EMAIL_ADDRESS = "youremail@example.com"  # Replace with your email address
-EMAIL_PASSWORD = "yourpassword"         # Replace with your email password
-TO_EMAIL = "recipient@example.com"      # Replace with recipient's email address
+EMAIL_ADDRESS = "3081037024@qq.com"  # Replace with your email address
+EMAIL_PASSWORD = "uxweabuszncqdfac"         # Replace with your email password
+TO_EMAIL = "15365075682@163.com"      # Replace with recipient's email address
 
 # Function to send email
 def send_email(subject, body):
@@ -45,7 +45,7 @@ def check_soil_moisture():
 # Function to take four daily readings
 def daily_readings():
     # Set daily times for the readings
-    reading_times = ["08:00", "12:00", "16:00", "20:00"]
+    reading_times = ["08:00", "12:00", "16:00", "20:45"]
 
     for time_str in reading_times:
         # Wait until the scheduled time
